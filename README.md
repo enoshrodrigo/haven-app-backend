@@ -32,7 +32,7 @@
 
 1. *Clone the Repository*  
    ```bash
-   git clone https://github.com/your-repo-link.git
+   git clone https://github.com/repo-link.git
    cd hevan-guider
 2. Install Dependencies
 
