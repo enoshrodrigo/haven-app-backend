@@ -44,10 +44,10 @@ npm install
 	3.	Environment Variables
 Create a .env file and add the following:
 
-MONGO_URI=your_mongodb_connection_string
-ENCRYPTION_KEY=your_32_byte_key
-ENCRYPTION_IV=your_16_byte_iv
-PORT=5000
+- *MONGO_URI*=your_mongodb_connection_string
+- *ENCRYPTION_KEY*=your_32_byte_key
+- *ENCRYPTION_IV*=your_16_byte_iv
+- *PORT*=5000
 
 
 	4.	Run the Server
