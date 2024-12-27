@@ -34,25 +34,25 @@
    ```bash
    git clone https://github.com/your-repo-link.git
    cd hevan-guider
-
-
-	 Install Dependencies
+2. Install Dependencies
 
          npm install
 
 
-2. *Environment Variables*
+3. *Environment Variables*
    	Create a .env file and add the following:
  ```bash
-- *MONGO_URI*=your_mongodb_connection_string
-- *ENCRYPTION_KEY*=your_32_byte_key
-- *ENCRYPTION_IV*=your_16_byte_iv
-- *PORT*=5000
+MONGO_URI = your_mongodb_connection_string
+ ENCRYPTION_KEY = your_32_byte_key
+ ENCRYPTION_IV = your_16_byte_iv
+ PORT = 5000
 ```
 
 4.	Run the Server
 
- ```bash npm start```
+ ```bash 
+ npm start
+```
 
 ## *Usage* 💬
 
