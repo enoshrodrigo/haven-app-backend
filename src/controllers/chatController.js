@@ -1,17 +1,17 @@
-const chatbotService = require('../services/chatbotService');
+const chatbotService = require('../../backup/chatbotService');
+const chatHistoryService = require('../services/AIbotService');
 
-exports.handleChat = async (req, res) => {
-    const { userInput, imageUrl } = req.body;
-console.log("userInput",imageUrl);
-    if (!userInput && !imageUrl) {
-        return res.status(400).json({ error: "Invalid input" });
-    }
 
+
+ exports.chatHandler = async (req, res) =>{
+    const { userInput } = req.body;
+     userId = 1; // For simplicity, I am using a single user ID if you want to implement multiple users, you can use the user ID from the request body(this for users to have their own chat history) --enosh rodrigo
+  
     try {
-        const response = await chatbotService.handleChatLogic(userInput, imageUrl);
-        console.log("response",response);
-        res.json({ botResponse:response });
-    } catch (error) {
-        res.status(500).json({ error: error.message });
+      const response = await chatHistoryService.handleUserInput(userId, userInput);
+      res.json({  botResponse:response });
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ error: "Server error" });
     }
-};
+  }
