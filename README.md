@@ -54,22 +54,22 @@ PORT=5000
 
 npm start
 
-Usage 💬
+## *Usage* 💬
 
 Once the server is running, access the chatbot via your preferred frontend or test it using Postman. The chatbot can:
 	•	Provide details about Sri Lankan tourism packages.
 	•	Answer questions about historical places, weather, and reviews.
 	•	Maintain encrypted chat history for personalized replies.
 
-Contributing 🤝
+## *Contributing* 🤝
 
 We welcome contributions to enhance this chatbot! Feel free to fork this repo, create a branch, and submit a pull request.
 
-License 📜
+## *License* 📜
 
 This project is licensed under the MIT License.
 
-Contact 📧
+## *Contact* 📧
 
 For any inquiries or suggestions, connect with me on LinkedIn
 
