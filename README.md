@@ -1,4 +1,4 @@
-# *Hevan Guider – AI Chatbot for Sri Lanka Tourism* 🌍🤖  
+# *Hevan Guider – AI Chatbot and APP for Sri Lanka Tourism* 🌍🤖  
 
 *Hevan Guider* is an AI-powered chatbot designed to enhance the travel experience for tourists visiting Sri Lanka. 🇱🇰 It provides personalized replies, secure chat history storage, and detailed information about tour packages, making travel planning smarter and more interactive.  
 
