@@ -1,27 +1,39 @@
-Hevan Guider – AI Chatbot for Sri Lanka Tourism 🌍🤖
+# *Hevan Guider – AI Chatbot for Sri Lanka Tourism* 🌍🤖  
 
-Hevan Guider is an AI-powered chatbot designed to enhance the travel experience for tourists visiting Sri Lanka. 🇱🇰 It provides personalized replies, secure chat history storage, and detailed information about tour packages, making travel planning smarter and more interactive.
+*Hevan Guider* is an AI-powered chatbot designed to enhance the travel experience for tourists visiting Sri Lanka. 🇱🇰 It provides personalized replies, secure chat history storage, and detailed information about tour packages, making travel planning smarter and more interactive.  
 
-Features 🚀
-	•	Personalized Responses – Tracks user interactions to deliver tailored replies based on preferences.
-	•	Secure Chat History – Stores chat data securely using AES-256-CBC encryption to ensure privacy and security.
-	•	Tour Package Insights – Offers details about historical places, weather conditions, and reviews to help tourists make informed decisions.
+---
 
-Tech Stack 🛠
-	•	Backend: Node.js (Express.js)
-	•	Database: MongoDB
-	•	Security: AES-256-CBC encryption for secure data storage
+## *Features* 🚀  
 
-Planned Features 🔮
-	•	AI Translator – Real-time translation to help tourists communicate with locals effortlessly.
-	•	Image Recognition – Identify landmarks and provide historical or cultural insights.
-	•	Weather Updates – Offer live weather information for better trip planning.
+- *Personalized Responses* – Tracks user interactions to deliver tailored replies based on preferences.  
+- *Secure Chat History* – Stores chat data securely using *AES-256-CBC encryption* to ensure privacy and security.  
+- *Tour Package Insights* – Offers details about historical places, weather conditions, and reviews to help tourists make informed decisions.  
 
-Installation ⚙
-	1.	Clone the Repository
+---
 
-git clone https://github.com/your-repo-link.git
-cd hevan-guider
+## *Tech Stack* 🛠  
+
+- *Backend*: Node.js (Express.js)  
+- *Database*: MongoDB  
+- *Security*: AES-256-CBC encryption for secure data storage  
+
+---
+
+## *Planned Features* 🔮  
+
+- *AI Translator* – Real-time translation to help tourists communicate with locals effortlessly.  
+- *Image Recognition* – Identify landmarks and provide historical or cultural insights.  
+- *Weather Updates* – Offer live weather information for better trip planning.  
+
+---
+
+## *Installation* ⚙  
+
+1. *Clone the Repository*  
+   ```bash
+   git clone https://github.com/your-repo-link.git
+   cd hevan-guider
 
 
 	2.	Install Dependencies
