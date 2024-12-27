@@ -36,23 +36,23 @@
    cd hevan-guider
 
 
-	2.	Install Dependencies
+	 Install Dependencies
 
-npm install
+         npm install
 
 
-	3.	Environment Variables
-Create a .env file and add the following:
-
+2. *Environment Variables*
+   	Create a .env file and add the following:
+ ```bash
 - *MONGO_URI*=your_mongodb_connection_string
 - *ENCRYPTION_KEY*=your_32_byte_key
 - *ENCRYPTION_IV*=your_16_byte_iv
 - *PORT*=5000
+```
 
+4.	Run the Server
 
-	4.	Run the Server
-
-npm start
+ ```bash npm start```
 
 ## *Usage* 💬
 
